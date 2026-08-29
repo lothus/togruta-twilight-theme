@@ -1,0 +1,38 @@
+{
+  "name": "togruta-twilight-theme",
+  "displayName": "Togruta Twilight — Ahsoka Inspired",
+  "description": "A cinematic dark VS Code theme inspired by Ahsoka: deep space blues, warm white, vivid orange, and lightsaber accents.",
+  "version": "1.0.0",
+  "publisher": "local",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lothus/togruta-twilight-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lothus/togruta-twilight-theme/issues"
+  },
+  "homepage": "https://github.com/lothus/togruta-twilight-theme#readme",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "space",
+    "orange",
+    "blue"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Togruta Twilight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/togruta-twilight-color-theme.json"
+      }
+    ]
+  }
+}
