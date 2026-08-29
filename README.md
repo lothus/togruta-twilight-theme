@@ -2,13 +2,27 @@
 
 A cinematic dark theme inspired by Ahsoka's visual language: midnight space, weathered warm whites, vivid Togruta orange, cool blue light, and restrained crimson warnings.
 
-## Install locally
+## Installation
 
-1. Open this folder in VS Code.
-2. Press `F5` to launch an Extension Development Host.
-3. In the new window, run **Preferences: Color Theme** and choose **Togruta Twilight**.
+### Install the packaged extension
 
-To install it permanently, package the folder with `npx @vscode/vsce package`, then run **Extensions: Install from VSIX...** and select the generated file.
+1. Download `togruta-twilight-theme-1.0.0.vsix` from this repository.
+2. In VS Code, open the Command Palette:
+   - macOS: `Cmd+Shift+P`
+   - Windows/Linux: `Ctrl+Shift+P`
+3. Run **Extensions: Install from VSIX...**.
+4. Select the downloaded `.vsix` file and reload VS Code if prompted.
+5. Run **Preferences: Color Theme** and choose **Togruta Twilight**.
+
+You can also install the package from a terminal:
+
+```sh
+code --install-extension togruta-twilight-theme-1.0.0.vsix
+```
+
+### Preview from source
+
+Open this repository in VS Code and press `F5` to launch an Extension Development Host. In the new window, run **Preferences: Color Theme** and choose **Togruta Twilight**.
 
 ## Palette
 
